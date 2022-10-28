@@ -24,6 +24,10 @@ features = st.container()
 
 
 #tweets
-df = pd.read_csv("https://raw.githubusercontent.com/RitRa/Msc_sentiment_analysis/master/data/df.pkl", encoding='latin-1')
 
-df.head()
+filename ="https://raw.githubusercontent.com/RitRa/Msc_sentiment_analysis/master/data/df.pkl"
+infile = open(filename,'rb')
+df = pickle.load(infile)
+
+
+df.head(5)

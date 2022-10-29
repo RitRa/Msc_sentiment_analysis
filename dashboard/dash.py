@@ -36,12 +36,12 @@ header = st.container()
 #dataset = st.container()
 #features = st.container()
 # import pickle file
-st.title("Prediction of Ice cream shop revenue")
+st.title("Prediction of sentiment")
 st.markdown(
-    "Here we are using temperature as the input to predict the day's revenue")
+    "")
 
 
-with open('dashboard/forecasterxgb.pkl', 'rb') as files:
-    pickled_model = pickle.load(model, files)
+pkl_Filename = "/app/dashboard/forecasterxgb.pkl"
 
-pickled_model
+with open(pkl_Filename, 'rb') as file:
+    Regressor_model = pickle.load(file)

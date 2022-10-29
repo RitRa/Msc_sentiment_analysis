@@ -8,3 +8,6 @@ gensim==4.2.0
 joblib==1.2.0
 nltk==3.7
 pickleshare==0.7.5
+pickle5
+seaborn
+plotly

@@ -41,5 +41,8 @@ st.markdown(
     "test")
 
 
-pickle_in = open('forecasterxgb.pkl', 'rb')
+pickle_in = open(
+    '/app/msc_sentiment_analysis/dashboard/forecasterxgb.pkl', 'rb')
 classifier = pickle.load(pickle_in)
+
+classifier

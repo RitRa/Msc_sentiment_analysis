@@ -1,3 +1,15 @@
 WARNING:py.warnings:/usr/local/lib/python3.9/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
   from imp import reload
 
+WARNING:py.warnings:/usr/local/lib/python3.9/site-packages/seaborn/matrix.py:308: MatplotlibDeprecationWarning: Auto-removal of grids by pcolor() and pcolormesh() is deprecated since 3.5 and will be removed two minor releases later; please call grid(False) first.
+  mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+
+WARNING:py.warnings:/usr/local/lib/python3.9/site-packages/seaborn/matrix.py:318: MatplotlibDeprecationWarning: Auto-removal of grids by pcolor() and pcolormesh() is deprecated since 3.5 and will be removed two minor releases later; please call grid(False) first.
+  cb = ax.figure.colorbar(mesh, cax, ax, **self.cbar_kws)
+
+WARNING:py.warnings:/usr/local/lib/python3.9/site-packages/seaborn/matrix.py:308: MatplotlibDeprecationWarning: Auto-removal of grids by pcolor() and pcolormesh() is deprecated since 3.5 and will be removed two minor releases later; please call grid(False) first.
+  mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+
+WARNING:py.warnings:/usr/local/lib/python3.9/site-packages/seaborn/matrix.py:318: MatplotlibDeprecationWarning: Auto-removal of grids by pcolor() and pcolormesh() is deprecated since 3.5 and will be removed two minor releases later; please call grid(False) first.
+  cb = ax.figure.colorbar(mesh, cax, ax, **self.cbar_kws)
+

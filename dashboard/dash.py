@@ -17,6 +17,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os
 
 # data vis
 #import plotly.express as px
@@ -40,10 +41,8 @@ st.markdown(
     "Here we are using temperature as the input to predict the day's revenue")
 
 
-# df_csv = pd.read_csv(
-# "https://raw.githubusercontent.com/RitRa/Msc_sentiment_analysis/main/data/ukgov_23.csv", encoding='latin-1')
-# df_csv
+model_file = 'forecasterxgb.pkl'
+loaded_model = pickle.load(open(model_file, 'rb'))
 
-df_new = pickle.load(open('../data/data.pkl', 'rb'))
 
-df_new
+loaded_model

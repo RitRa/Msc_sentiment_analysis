@@ -38,10 +38,8 @@ header = st.container()
 # import pickle file
 st.title("Prediction of sentiment")
 st.markdown(
-    "")
+    "test")
 
 
-pkl_Filename = "/app/dashboard/forecasterxgb.pkl"
-
-with open(pkl_Filename, 'rb') as file:
-    Regressor_model = pickle.load(file)
+pickle_in = open('forecasterxgb.pkl', 'rb')
+classifier = pickle.load(pickle_in)

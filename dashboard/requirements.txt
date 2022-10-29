@@ -12,3 +12,4 @@ pickle5
 seaborn
 plotly
 skforecast
+xgboost

@@ -41,7 +41,7 @@ st.markdown(
     "Here we are using temperature as the input to predict the day's revenue")
 
 
-model_file = 'forecasterxgb.pkl'
+model_file = 'dashboard/forecasterxgb.pkl'
 loaded_model = pickle.load(open(model_file, 'rb'))
 
 

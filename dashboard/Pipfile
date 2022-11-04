@@ -8,6 +8,7 @@ seaborn = "*"
 plotly = "*"
 skforecast = "*"
 pickle5 = "*"
+xgboost = "*"
 
 [dev-packages]
 

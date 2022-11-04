@@ -9,6 +9,7 @@ plotly = "*"
 skforecast = "*"
 pickle5 = "*"
 xgboost = "*"
+scikit-learn = "*"
 
 [dev-packages]
 

@@ -49,17 +49,17 @@ full_df = open(
 
 # pickle_xgb = open(
 #     'forecasterxgb.pkl', 'rb')
-# regressor_xgb = pickle.load(pickle_xgb)
+regressor_xgb = pickle.load(pickle_xgb)
 
 
 # pickle_df = open(
 #     'df_cmp.pkl', 'rb')
-# df_cmp = pickle.load(pickle_df)
+df_cmp = pickle.load(pickle_df)
 
 
 # full_df = open(
 #     'df_full.pkl', 'rb')
-# df_full = pickle.load(full_df)
+df_full = pickle.load(full_df)
 ############################# Data end #############################
 
 

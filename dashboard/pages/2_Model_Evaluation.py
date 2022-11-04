@@ -50,12 +50,12 @@ pickle_df = open(
     '/app/msc_sentiment_analysis/dashboard/df_cmp.pkl', 'rb')
 # pickle_xgb = open(
 #     './forecasterxgb.pkl', 'rb')
-# regressor_xgb = pickle.load(pickle_xgb)
+regressor_xgb = pickle.load(pickle_xgb)
 
 
 # pickle_df = open(
 #     './df_cmp.pkl', 'rb')
-# df_cmp = pickle.load(pickle_df)
+df_cmp = pickle.load(pickle_df)
 ############################# Data end #############################
 
 

@@ -19,7 +19,7 @@ rishi_image = '/app/msc_sentiment_analysis/dashboard/img/rishi.jpeg'
 
 # df_all = open(
 #     './df_full.pkl', 'rb')
-# df = pickle.load(df_all)
+df = pickle.load(df_all)
 
 # boris_image = './img/boris.jpeg'
 # liz_image = './img/liz.jpeg'

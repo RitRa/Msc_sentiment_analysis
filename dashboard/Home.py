@@ -67,8 +67,6 @@ full_df = open(
 with home_page:
     st.subheader('Home')
 
-    df_full.describe()
-
     fig_box = px.histogram(df_full, x='compound',
                            title="Sentiment: Compound from Tweets about UKGOV")
     fig_box.update_layout(height=400)

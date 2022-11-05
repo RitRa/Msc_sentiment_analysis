@@ -7,9 +7,9 @@ name = "pypi"
 seaborn = "*"
 plotly = "*"
 skforecast = "*"
-pickle5 = "*"
+pickle = "*"
 xgboost = "*"
-scikit-learn = "*"
+scikit-learn = "1.1.2"
 
 [dev-packages]
 

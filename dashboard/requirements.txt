@@ -5,3 +5,5 @@ pickle5
 xgboost
 scikit-learn
 joblib
+pandas
+numpy

@@ -52,6 +52,9 @@ model_evaluation = st.container()
 regressor_xgb = joblib.load(
     "/app/msc_sentiment_analysis/dashboard/forecasterxgb.sav")
 
+# regressor_xgb = joblib.load(
+#     "forecasterxgb.sav")
+
 pickle_df = open(
     '/app/msc_sentiment_analysis/dashboard/df_cmp.pkl', 'rb')
 

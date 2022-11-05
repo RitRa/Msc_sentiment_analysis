@@ -27,7 +27,7 @@ import plotly.express as px
 
 
 # setting a wide layout
-st.set_page_config(page_title="Mdoel Evaluation",
+st.set_page_config(page_title="Basic Analysis",
                    page_icon="👋",
                    layout="wide"
                    )

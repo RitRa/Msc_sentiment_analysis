@@ -1,6 +1,8 @@
-xbgoost
-numpy
-skforecast
-pandas
-scikit-learn
-matplotlib
+
+numpy==1.21.4
+scikit-learn==1.1.0
+pandas==1.4.0
+skforecast==0.5.1
+xgboost==1.6.2
+joblib==1.2.0
+plotly==5.10.0

@@ -19,6 +19,7 @@ import numpy as np
 import pickle
 import os
 import plotly.express as px
+import joblib
 
 #from dateutil.relativedelta import relativedelta
 #import math
@@ -44,8 +45,12 @@ model_evaluation = st.container()
 
 ############################# Data start #############################
 # import pickle file
-pickle_xgb = open(
-    '/app/msc_sentiment_analysis/dashboard/forecasterxgb.pkl', 'rb')
+# pickle_xgb = open(
+#     '/app/msc_sentiment_analysis/dashboard/forecasterxgb.pkl', 'rb')
+
+pickle_xgb = joblib.load(
+    "/app/msc_sentiment_analysis/dashboard/forecasterxgb.sav")
+
 pickle_df = open(
     '/app/msc_sentiment_analysis/dashboard/df_cmp.pkl', 'rb')
 # pickle_xgb = open(

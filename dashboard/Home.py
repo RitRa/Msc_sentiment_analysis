@@ -46,8 +46,8 @@ model_evaluation = st.container()
 
 ############################# Data start #############################
 # import pickle file
-pickle_xgb = open(
-    '/app/msc_sentiment_analysis/dashboard/forecasterxgb.pkl', 'rb')
+# pickle_xgb = open(
+#     '/app/msc_sentiment_analysis/dashboard/forecasterxgb.pkl', 'rb')
 
 regressor_xgb = joblib.load(
     "/app/msc_sentiment_analysis/dashboard/forecasterxgb.sav")
@@ -58,7 +58,7 @@ pickle_df = open(
 
 # pickle_xgb = open(
 #     './forecasterxgb.pkl', 'rb')
-regressor_xgb = pickle.load(pickle_xgb)
+#regressor_xgb = pickle.load(pickle_xgb)
 
 
 # pickle_df = open(

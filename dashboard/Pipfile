@@ -4,10 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-seaborn = "*"
 plotly = "*"
 skforecast = "*"
-pickle = "*"
+pickle5 = "*"
 xgboost = "*"
 scikit-learn = "1.1.2"
 
